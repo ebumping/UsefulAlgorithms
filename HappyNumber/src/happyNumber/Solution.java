@@ -3,23 +3,17 @@ package happyNumber;
 class Solution {
     public static boolean isHappy(int n) {
     	int sum = 0;
-    	int x = n;
-    	
-    	while(n!=0) {
-    		int r = n % 10;
-    		r = r * r;
-    		sum += r;
-    	}
-    	if(sum == 1 || x == 7 || x == 1) {
+    	if (n == 1 || n == 7) {
     		return true;
-    	}else if(sum == x*x && sum != 1)
-    		return false;
-    	else
-		return isHappy(sum);
-        
-    }
-    
-    public static void main(String[] argz) {
-    	isHappy(1359);
+    	}
+        if (n >= 2 && n <= 9) {
+        	return false;
+        }
+        while (n != 0) {
+        	int r = n % 10;
+        	sum += r*r;
+        	n /= 10;
+        }
+        return isHappy(sum);
     }
 }
