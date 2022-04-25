@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="HappyNumber/src"/>
+	<classpathentry kind="src" path="MergeSortedArray/src"/>
+	<classpathentry kind="src" path="MergeTwoSortedLists/src"/>
+	<classpathentry kind="src" path="PalindromeNumber/src"/>
+	<classpathentry kind="src" path="RemoveElement/src"/>
+	<classpathentry kind="src" path="RomanToInteger/src"/>
+	<classpathentry kind="src" path="SameTree/src"/>
+	<classpathentry kind="src" path="SearchInputPosition/src"/>
+	<classpathentry kind="src" path="Sqrt(x)/src"/>
+	<classpathentry kind="src" path="TwoSum/src"/>
+	<classpathentry kind="src" path="ValidParentheses/src"/>
+	<classpathentry kind="output" path="HappyNumber/bin"/>
+</classpath>
